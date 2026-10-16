@@ -1,0 +1,753 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("Refensi gambar AOL HCI/klara-kulikova-Rt0h3ka0Kk0-unsplash.jpg");
+    display: flex;
+    flex-direction: column;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.Brief_info {
+    flex: 1;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    position: relative;
+    display:inline-block;
+    text-decoration: underline;
+    color: white;
+}
+ 
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: transparent;
+    z-index: 1000;
+    display:flex;
+    justify-content: space-between;
+    align-items : center;
+    padding: 0 25px;
+}
+
+.logo{
+    width : 100px;
+    height : auto;
+}
+
+.Header_photo{
+    height: 450px;
+    position: relative;
+    z-index: 1;
+    opacity: 89%;
+}
+
+.Header_photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.reasonwhy{
+    text-align: center;
+    font-family: helvetica;
+    font-size: 27px;
+    color: #DEB887;
+    text-decoration: underline;
+}
+
+.navigation a{
+    position: relative;
+    margin-right: 20px;
+
+}
+
+.Brief_info{
+   background: transparent;
+   justify-content: center;
+   width: 100%;
+   margin: 0;
+   height: 350px;
+
+}
+
+.katakiasan{
+    text-align: center;
+    color: #DEB887;
+    font-family: "helvetica";
+    font-size: 20px;
+    
+}
+
+.infoinfo{
+    width: 100%;
+    justify-content: space-around;
+    display : flex;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+.teks{
+   margin: 20px auto;
+   margin-top: 5px;
+   padding: 10px;
+    width: 700px;
+    text-align: center;
+    color: whitesmoke;
+    font-family: helvetica;
+    font-size: 22px;
+    
+}
+
+hr{
+    width: 870px;
+    border: 1px solid white;
+    margin: 1px auto;
+}
+
+.symbol{
+    width: 300px;
+    height: 150px;
+    padding: 10px;
+}
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    color: #F5F5DC;
+    font-family: helvetica;
+    font-size: 20px;
+    letter-spacing: 0.4px;
+}
+
+.reason{
+    width: 300px;
+    height: 190px;
+    margin: 20px;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.ship-grid{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.soldship{
+    margin-top: 50px;
+    background-color: #4d78a3;
+    background-color: rgba(77, 120, 163, 0.6);
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.ships{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.shipname{
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+
+.icondollar{
+    width: 35px;
+    height :33px;
+    margin-left: 10px;
+}
+.iconpeople{
+    width: 45px;
+    height :40px;
+    margin-left: 10px;
+}
+.iconmeter{
+    margin-top: -25px;
+    width: 48px;
+    height :55px;
+    margin-left: 10px;
+}
+.iconspeed{
+    width: 60px;
+    height :40px;
+    margin-left: 10px;
+}
+
+.infoship{
+    display : flex;
+    justify-content: center;
+    margin-right: 18px;
+}
+
+.infoship p{
+    margin-left : 7px;
+    margin-bottom: 6px;
+    color : white;
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+.persuation-words{
+    text-align: center;
+    color: #DEB887;
+    font-family: "helvetica";
+    font-size: 20px;
+    margin-top : 310px;
+}
+
+.footer{
+    margin-top : 70px;
+    background-color:#001f3f;
+    color: white;
+    padding: 20px ; 
+    width: 100%;
+}
+
+.footer-left{
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    width: 100%
+}
+
+.closing{
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    align-self: center;
+}
+
+.closing p{
+    margin-top: 10px;;
+    text-align: center;
+    color:#F5F5DC;
+    font-size: 15px;
+    font-family: helvetica;
+}
+
+
+.iconsosmed{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 0px;
+    padding: 0px;
+}
+
+.follow_us{
+   text-align : right;
+   margin-right: 20px;
+    color:#F5F5DC;
+    font-family: helvetica; 
+}
+
+.follow_us h3, .follow_us p{
+    text-align: right;
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #F5F5DC;
+}
+
+.contact_us{
+    text-align: left;
+    margin-left: 20px;
+    color:#F5F5DC;
+    font-family: helvetica;
+}
+
+.contact_us h3{
+    text-align: left;
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #F5F5DC;
+}
+
+.contact_us p{
+    text-align: left;
+    margin: 0 0 8px 0;
+    font-size: 15px;
+    color: #F5F5DC;
+}
+
+.contact_us p:hover{
+    text-decoration:  underline;
+    transform: scale(1.05);
+    transition: 0.2s;
+
+}
+
+.contact_us a{
+    font-size: 15px;
+}
+
+.igicon{
+    width: 45px;
+    height: 45px;
+}
+
+.yticon{
+    width: 45px;
+    height: 45px
+}
+
+.twiticon{
+    margin-top: 7px;
+    width: 31px;
+    height: 31px;
+}
+
+.twiticon:hover, .liicon:hover, .tticon:hover, .fbicon:hover, .yticon:hover, .igicon:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.liicon{
+    margin-right: 5px;
+    width: 35px;
+    height: 35px;
+}
+
+.tticon{
+    width: 35px;
+    height: 35px;
+}
+
+.fbicon{
+    margin-right: 4px;
+    margin-bottom: 4px;
+    width: 35px;
+    height: 37px;
+}
+
+.Gallery-Hero{
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    text-align: center;
+    color:#DEB887
+}
+
+.Cargoship{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-family: helvetica;
+    font-size: 20px;
+    color: #DEB887;
+}
+
+.CargoShip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+    margin: 20px;
+    justify-content: center;
+}
+
+.soldyacht {
+    margin-top: 50px;
+    background-color: #4d78a3;
+    background-color: rgba(77, 120, 163, 0.6);
+    width: 100%;
+    max-width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.yachts{
+    width: 100%;
+    height: 250px;
+    border-radius: 30px;
+}
+
+.yachtname {
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.soldyacht p{
+    margin-top: 10px;
+    text-align: center;
+    color :aliceblue;
+    font-family: helvetica;
+    font-size: 16px;
+}
+.infoyacht {
+    display: flex;
+    justify-content: center;
+    margin-right: 10px;
+    gap: 6px;
+}
+
+.infoyacht p {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    color: white;
+    font-family: helvetica;
+    font-size: 13px; 
+}
+
+.icondollar2 {
+    width: 28px;
+    height: 28px;
+    margin-left: 6px;
+}
+
+.iconpeople2 {
+    width: 32px;
+    height: 30px;
+    margin-left: 6px;
+}
+
+.iconmeter2 {
+    margin-top: -18px;
+    width: 35px;
+    height: 42px;
+    margin-left: 6px;
+}
+
+.iconspeed2 {
+    width: 40px;
+    height: 30px;
+    margin-left: 6px;
+}
+
+.service-grid{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.logoservice{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.service-wrapper{
+    margin-top: 20px;
+}
+
+.service{
+    width: 100%;
+    height: auto;
+    background-color: #4d78a3;
+    background-color: rgba(77, 120, 163, 0.6);
+    border-radius: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fontservice{
+    font-size: 20px;
+    color:#DEB887;
+    font-family: helvetica;
+    margin-top: 10px;
+}
+
+.textservice{
+    font-size: 17px;
+    color: white;
+    font-family: helvetica;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.infoaboutus{
+    margin-top: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    padding: 8px;
+    gap: 250px;
+    margin-bottom :80px;
+}
+
+.logoaboutus{
+    width: 300px;
+    height: 150px;
+}
+
+.opening{
+    text-align: start;
+    font-family: helvetica;
+    font-size: 30px;
+    color:#001f3f
+}
+
+.aboutshipdeck{
+    width:400px;
+    font-family: helvetica;
+    font-size: 18px;
+    text-align: start;
+}
+
+.historyimage{
+    width: 450px;
+    height: 300px;
+
+}
+
+.history1-text{
+    width: 400px;
+    font-family: helvetica;
+    text-align: center;;
+}
+
+.history1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    margin-top: 40px;
+}
+
+.History{
+    margin-top: 80px;
+}
+
+.vertical-line{
+    width:4px;
+    height: 340px;
+    background: white;
+    margin: 0 20px;
+}
+
+
+.textvision{
+    font-size: 17px;
+    font-family: helvetica;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.textvision1 {
+    font-size: 17px;
+    font-family: helvetica;
+    width: 100%;
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+.VisMisVal {
+    background-color: rgba(77, 120, 163, 0.6);
+    margin-top: 70px;
+    display: flex;
+    align-items: stretch;     
+    justify-content: center;
+    gap: 32px;       
+    margin-bottom: 80px;         
+}
+
+.Vision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;       
+    background: transparent;
+    padding: 16px 12px;
+    flex: 1 1 0;               
+    min-width: 220px;
+    
+}
+
+.logovision {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+    margin-top: 0;
+    padding: 5px;
+}
+.fontvision{
+    font-size: 20px;
+    color: #DEB887;
+    font-family: helvetica;
+    margin: 8px 0 8px 0;
+    text-align: center;
+}
+
+.achievement-grid{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    justify-items: center;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.kontainer{
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+form{
+    width: 400px;
+    background-color: rgba(77, 120, 163, 0.6);
+    padding: 24px 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+}
+
+.form-attribute{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 10px;
+}
+
+.form-attribute label{
+    font-family: helvetica;
+    font-size: 19px;
+
+}
+
+@media screen and (max-width: 768px) {
+    /* Layout grid jadi 2 kolom */
+    .CargoShip-grid,
+    .service-grid,
+    .achievement-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .ship-grid {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .VisMisVal {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .history1 {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .history1-text, .historyimage {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .infoaboutus {
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .aboutshipdeck, .opening {
+        text-align: center;
+        width: 90%;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .form-attribute {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .footer-left {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .follow_us, .contact_us {
+        text-align: center;
+        margin: 0;
+    }
+
+    .iconsosmed {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .closing {
+        width: 90%;
+    }
+
+    .soldship, .soldyacht {
+        width: 90%;
+        margin: 20px auto;
+    }
+}
